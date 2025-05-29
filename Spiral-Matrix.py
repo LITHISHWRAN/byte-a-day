@@ -25,7 +25,7 @@ class Solution:
             if  left <= right:
                 for row in range(bottom, top -1, -1):
                     result.append(matrix[row][left])
-                left += 1 
+                left += 1  
 
         return result
                 
